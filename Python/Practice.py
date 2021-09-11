@@ -93,3 +93,27 @@ from math import *
 print(floor(3.14)) #내림 3
 print(ceil(3.14)) #올림 4
 print(sqrt(16)) #제곱근 4
+
+
+#String
+sentence = '나는 민제'
+print(sentence)
+sentence2 = "나는 민제"
+print(sentence2)
+sentence3 = """
+나는 민제
+"""
+print(sentence3)
+
+
+#Slicing
+j = "051023-3234567"
+
+print("성별 : "+j[7])
+print("연 : "+j[0:2]) # 0~2번째 전까지
+print("월 : "+j[2:4]) # 2~4번째 전까지
+print("일 : "+j[4:6]) # 4~6번째 전까지
+
+print("생년월일 : "+j[:6]) #처음부터 6전까지
+print("뒤 7자리 : "+j[7:]) #7부터 끝까지
+print("뒤 7자리 : "+j[-7:]) #7부터 끝까지
