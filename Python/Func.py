@@ -1,3 +1,5 @@
+# ------------String Funcion------------
+
 python = "Python is Amazing"
 
 print(python.lower()) #소문자
