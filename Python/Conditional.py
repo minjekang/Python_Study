@@ -42,7 +42,24 @@
 
 ############ while ###################
 
+# customer = "아이언맨"
+# # index = 5
+# # while index >=1:
+# #     print("{0}, 커피 나왔습니다. {1}번 남았어요".format(customer, index))
+# #     index -= 1
+# #     if index == 0 :
+# #         print("커피 폐기처분")
+# index = 1
+# while true:
+#     print("{0}, 커피 나왔습니다. 호출 {1} 회".format(customer, index))
+#     index += 1
 
 
+customer = "토르"
+person = "Unknown"
+
+while person != customer:
+    print("{0}, 커피 준비 완료.".format(customer))
+    person = input("이름이 뭔가요?")
 
 ############ while ###################
