@@ -80,9 +80,17 @@
 
 
 # 한줄 for#######################3
-student = [1, 2, 3, 4, 5]
-print(student)
-student = [i+100 for i in student]
-print(student)
+# student = [1, 2, 3, 4, 5]
+# print(student)
+# student = [i+100 for i in student]
+# print(student)
 
 # 이름 길이로 변환
+student = ["Iron man", "Thor", "Groot"]
+student = [len(i) for i in student]
+print(student)
+
+# 대문자로
+student = ["Iron man", "Thor", "Groot"]
+student = [i.upper() for i in student]
+print(student)
