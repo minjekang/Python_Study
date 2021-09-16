@@ -55,11 +55,34 @@
 #     index += 1
 
 
-customer = "토르"
-person = "Unknown"
+# customer = "토르"
+# person = "Unknown"
 
-while person != customer:
-    print("{0}, 커피 준비 완료.".format(customer))
-    person = input("이름이 뭔가요?")
+# while person != customer:
+#     print("{0}, 커피 준비 완료.".format(customer))
+#     person = input("이름이 뭔가요?")
 
 ############ while ###################
+
+
+
+
+# absent = [2, 5] # 결석
+# no_book = [7] # 책 없음
+# for student in range(1, 11):
+#     if student in absent:
+#         continue
+#     elif student in no_book:
+#         print("오늘 수업 여기까지. {0} 은 교무실로".format(student))
+#         break
+#     print("{0}, 책 읽어봐".format(student))
+
+
+
+# 한줄 for#######################3
+student = [1, 2, 3, 4, 5]
+print(student)
+student = [i+100 for i in student]
+print(student)
+
+# 이름 길이로 변환
